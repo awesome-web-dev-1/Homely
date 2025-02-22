@@ -20,7 +20,7 @@
 
 @layer utilities{
     .container{
-        @apply px-4 md:px-9 mx-auto w-full
+        @apply px-4 md:px-9 mx-auto w-full xs:max-w-[520px] sm:max-w-[740px] md:max-w-[960px] lg:max-w-[1150px] xl:max-w-[1350px]
     }
     .section{
         @apply pt-[88px] md:pt-[150px]
@@ -69,7 +69,7 @@
 }
 /* HERO */
 .hero{
-    @apply bg-[url("./images/hero-banner.png")] bg-center bg-cover min-h-screen lg:min-h-[860px] bg-no-repeat flex items-center py-10
+    @apply bg-center bg-cover min-h-screen lg:min-h-[860px] bg-no-repeat flex items-center py-10
 }
 /* Popular Properties */
 .card-item{
